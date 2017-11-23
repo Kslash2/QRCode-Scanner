@@ -35,7 +35,7 @@
             android:name=".BarcodeCaptureActivity"
             android:label="@string/title_barcode_capture" />
         <activity
-            android:name=".Result"
+            android:name=".ResultActivity"
             android:label="@string/title_activity_result" />
     </application>
 

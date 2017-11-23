@@ -29,7 +29,6 @@ import android.hardware.Camera;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
-import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
@@ -287,7 +286,7 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
         }
 
         Log.e(TAG, "Permission not granted: results len = " + grantResults.length +
-                " Result code = " + (grantResults.length > 0 ? grantResults[0] : "(empty)"));
+                " ResultActivity code = " + (grantResults.length > 0 ? grantResults[0] : "(empty)"));
 
         DialogInterface.OnClickListener listener = new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int id) {
@@ -434,12 +433,12 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
 
     /**
      * Action performed immediately after the QRCode has been captured
-     * It passed the QRcodeResult (barcode) to the activity Result using putExtra
+     * It passed the QRcodeResult (barcode) to the activity ResultActivity using putExtra
      * @param barcode
      */
     @Override
     public void onBarcodeDetected(Barcode barcode) {
-        Intent resultIntent = new Intent(this, Result.class);
+        Intent resultIntent = new Intent(this, ResultActivity.class);
         String qrResult = barcode.rawValue;
         resultIntent.putExtra("qrResult",qrResult);
         startActivity(resultIntent);

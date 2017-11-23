@@ -10,9 +10,9 @@ import android.view.View;
 import android.widget.TextView;
 
 /**
- * Activity that show QRCode Result, in a TextView
+ * Activity that show QRCode ResultActivity, in a TextView
  */
-public class Result extends AppCompatActivity {
+public class ResultActivity extends AppCompatActivity {
     private String QRCodeReceived="";
     private TextView resultView;
 
