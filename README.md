@@ -1,4 +1,4 @@
-# barcode-reader
+# QRCode-Scanner
 This is a simple **Android App** that let you scan QRCodes using your camera. I needed an app for an UniversityProject with this functionality,
 then I thought: Ok, now I create a base version, maybe it can be useful for someone! :)
 I forked this app from the sample [AndroidVision/VisionSamples/Barcode-Reader](https://github.com/googlesamples/android-vision/tree/master/visionSamples/barcode-reader).
