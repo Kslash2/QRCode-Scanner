@@ -12,7 +12,7 @@
         android:fullBackupContent="false"
         android:hardwareAccelerated="true"
         android:icon="@drawable/icon"
-        android:label="QRcodeScanner"
+        android:label="QRcode-Scanner"
         android:supportsRtl="true"
         android:theme="@style/OrangeAmber">
         <meta-data
@@ -27,7 +27,6 @@
             android:label="@string/title_activity_main">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

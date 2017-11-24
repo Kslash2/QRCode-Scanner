@@ -4,12 +4,15 @@
     <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
     <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
     <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
-    <string name="title_activity_main">QR code</string>
+
+    <string name="title_activity_main">QRCode-Scanner</string>
     <string name="title_barcode_capture">Read QR code</string>
+    <string name="title_activity_result">QR Code Result</string>
+
     <string name="barcode_header">Click &quot;Read QR&quot; to read a QR</string>
     <string name="read_QR">Read QR</string>
     <string name="QR_success">QR read successfully</string>
     <string name="QR_failure">No QR captured</string>
     <string name="QR_error">"Error reading QR: %1$s"</string>
-    <string name="title_activity_result">QR Code Result</string>
+
 </resources>
