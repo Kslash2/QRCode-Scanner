@@ -1,7 +1,7 @@
 # barcode-reader
 This is a simple **Android App** that let you scan QRCodes using your camera. I needed an app for an UniversityProject with this functionality,
-then I said ok, now I create a base version, maybe it can be useful for someone :)
-I created this app just starting from [AndroidVision/VisionSamples/Barcode-Reader](https://github.com/googlesamples/android-vision/tree/master/visionSamples/barcode-reader).
+then I thought: Ok, now I create a base version, maybe it can be useful for someone! :)
+I forked this app from the sample [AndroidVision/VisionSamples/Barcode-Reader](https://github.com/googlesamples/android-vision/tree/master/visionSamples/barcode-reader).
 
 ### MainActivity.java
 I deleted the 2 swtich, autofocus and flash, (just set autofocus true by default, while flash false by default).
@@ -23,9 +23,9 @@ the colors.
 Here I created some themes with the respective set of colors from colors.xml 
 
 ## License
-I did this app for fun and because I need this as base for a project. I decided to publish this version because maybe it can be useful
+I made this app for fun and because I need this as base for a project. I decided to publish this version because maybe it can be useful
 and it could save time for someone!
-The license is the same of the original that I modified ([AndroidVision/VisionSamples/Barcode-Reader](https://github.com/googlesamples/android-vision/tree/master/visionSamples/barcode-reader))
+I just left the same license of the original project that I modified ([AndroidVision/VisionSamples/Barcode-Reader](https://github.com/googlesamples/android-vision/tree/master/visionSamples/barcode-reader))
 
 http://www.apache.org/licenses/LICENSE-2.0
 
